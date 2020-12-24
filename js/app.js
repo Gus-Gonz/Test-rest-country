@@ -190,7 +190,6 @@ sendHttpRequest('GET', 'https://restcountries.eu/rest/v2/all')
   .then(
     (countries) => {
       fullListOfCountries = countries;
-      console.log(countries);
       return fullListOfCountries;
     },
     (error) => console.log(error)
